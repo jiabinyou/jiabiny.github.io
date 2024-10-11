@@ -35,7 +35,19 @@
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md'
       },
-      homePage: 'README.md' 
+      homePage: 'README.md' ,
+      markdown: {
+        renderer: {
+          code: function (code, lang) {
+            if (lang === 'math') {
+              return katex.renderToString(code, {
+                throwOnError: false
+              });
+            }
+            return code;
+          }
+        }
+      }
     }
   </script>
 

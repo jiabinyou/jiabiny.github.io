@@ -26,7 +26,6 @@
 * [4.7-生成任务-摘要生成](./篇章4-使用Transformers解决NLP任务/4.7-生成任务-摘要生成.md)
 * [4.8-篇章小测](./篇章4-使用Transformers解决NLP任务/4.8-篇章小测.md)
 
-
 [篇章5-详解chatGPT](./篇章5-详解chatGPT/5.1-详解经典论文InstructGPT.md)
 * [5.1-详解经典论文InstructGPT](./篇章5-详解chatGPT/5.1-详解经典论文InstructGPT.md)
 
